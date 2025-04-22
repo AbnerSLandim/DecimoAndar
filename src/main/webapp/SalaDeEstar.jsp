@@ -7,7 +7,17 @@
     </head>
     <body>
         <div class="background-image">
-            <img src="content/img/1000_F_28096073_7mPOVyBFsTL4Ussia8bEyZJ9XM1DP9fN.jpg">
+            <img src="content/img/broken-toys-graded-0025-mov-2301005-high_0004.png">
+            <p id="mensagensCodigo"></p>
+            <audio  autoplay loop id="audioChiado">
+                <source src="${pageContext.request.contextPath}/content/audio/estaticaTV.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="audioResposta">
+                <source src="${pageContext.request.contextPath}/content/audio/glitch.mp3" type="audio/mpeg">
+            </audio>
+
         </div>
+
+        <script src="${pageContext.request.contextPath}/content/script.js"></script>
     </body>
 </html>
